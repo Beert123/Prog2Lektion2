@@ -1,4 +1,0 @@
-package Opgave01.model;
-
-public class Kant {
-}
