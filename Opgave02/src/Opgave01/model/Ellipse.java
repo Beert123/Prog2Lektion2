@@ -1,11 +1,18 @@
 package Opgave01.model;
 
-public class Ellipse extends Rund{
+public class Ellipse extends Rund {
     private double aRadius;
     private double bRadius;
 
-    public Ellipse(double aRadius, double bRadius) {
+    public Ellipse(double xpos, double ypos, double aRadius, double bRadius) {
+        super(xpos, ypos);
         this.aRadius = aRadius;
         this.bRadius = bRadius;
     }
+    public double areal(){
+        double areal = 0;
+        areal = Math.PI * aRadius * bRadius;
+        return areal;
+    }
 }
+

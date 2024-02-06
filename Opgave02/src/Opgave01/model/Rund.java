@@ -1,7 +1,11 @@
 package Opgave01.model;
 
+import java.util.ArrayList;
+
 public class Rund extends Figur{
-    public Rund(double areal, double xpos, double ypos) {
-        super(areal, xpos, ypos);
+    private ArrayList<Rund> runde;
+    public Rund(double xpos, double ypos) {
+        super(xpos, ypos);
     }
+
 }
