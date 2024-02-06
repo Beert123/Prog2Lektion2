@@ -2,7 +2,7 @@ package Opgave01.model;
 
 import java.util.ArrayList;
 
-public class Firkant extends Figur {
+public class Firkant extends Figur{
     private double højde;
     private double bredde;
 
@@ -19,5 +19,13 @@ public class Firkant extends Figur {
 
     public double getBredde() {
         return bredde;
+    }
+
+    public void setHøjde(double højde) {
+        this.højde = højde;
+    }
+
+    public void setBredde(double bredde) {
+        this.bredde = bredde;
     }
 }

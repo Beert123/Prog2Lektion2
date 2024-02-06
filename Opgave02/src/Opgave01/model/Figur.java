@@ -10,6 +10,7 @@ public class Figur {
         this.ypos = ypos;
     }
 
+
     public double getXpos() {
         return xpos;
     }

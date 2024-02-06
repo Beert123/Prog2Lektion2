@@ -1,6 +1,6 @@
 package Opgave01.model;
 
-public class Ellipse extends Rund {
+public class Ellipse extends Figur {
     private double aRadius;
     private double bRadius;
 

@@ -1,6 +1,6 @@
 package Opgave01.model;
 
-public class Cirkel extends Rund{
+public class Cirkel extends Figur implements Reziable{
     private double radius;
 
     public Cirkel(double xpos, double ypos, double radius) {
@@ -15,5 +15,15 @@ public class Cirkel extends Rund{
     }
     public double getRadius() {
         return radius;
+    }
+
+    @Override
+    public void doubleUp() {
+        radius = radius * 2;
+    }
+
+    @Override
+    public void halve() {
+
     }
 }
